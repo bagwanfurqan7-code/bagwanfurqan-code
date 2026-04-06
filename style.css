@@ -1,8 +1,8 @@
-/* Gradient Background */
+/* Background */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: linear-gradient(120deg, #89f7fe, #66a6ff);
+    background: linear-gradient(120deg, #1e3c72, #2a5298); /* Blue gradient */
     color: #333;
 }
 
@@ -10,16 +10,15 @@ body {
 header {
     text-align: center;
     padding: 30px;
-    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+    background: linear-gradient(90deg, #ff416c, #ff4b2b); /* Red gradient */
     color: white;
-    border-bottom: 5px solid #fff;
 }
 
 /* Navigation */
 nav {
     display: flex;
     justify-content: center;
-    background: linear-gradient(90deg, #43e97b, #38f9d7);
+    background: #0f2027; /* Dark blue */
 }
 
 nav a {
@@ -30,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-    background: rgba(0,0,0,0.2);
+    background: #ff4b2b; /* Red hover */
     border-radius: 5px;
 }
 
@@ -38,13 +37,19 @@ nav a:hover {
 section {
     padding: 25px;
     margin: 20px;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.95);
     border-radius: 15px;
+}
+
+/* Headings */
+h2 {
+    color: #ff4b2b; /* Red headings */
+    text-align: center;
 }
 
 /* Projects */
 .project {
-    background: linear-gradient(120deg, #f6d365, #fda085);
+    background: linear-gradient(120deg, #36d1dc, #5b86e5); /* Blue box */
     padding: 15px;
     margin-top: 10px;
     border-radius: 10px;
@@ -60,7 +65,7 @@ section {
 
 .gallery img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #ff6a00;
+    box-shadow: 0 0 15px #ff4b2b; /* Red glow */
 }
 
 /* Buttons */
@@ -68,20 +73,20 @@ button {
     padding: 10px 15px;
     border: none;
     border-radius: 20px;
-    background: #ff6a00;
+    background: #ff4b2b; /* Red button */
     color: white;
     cursor: pointer;
 }
 
 button:hover {
-    background: #ff3c00;
+    background: #1e90ff; /* Blue hover */
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 15px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: #1e3c72; /* Blue footer */
     color: white;
 }
 
